@@ -14,6 +14,9 @@ const Post = ({post}) => {
             <h1>{title}</h1>
             <p>{body}</p>
             <Link to={`/post/${id}`}>Details</Link>
+            <Link to={`/post/${id}`}>
+                <button>Spank me</button>
+            </Link>
         </div>
     );
 };
