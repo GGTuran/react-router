@@ -15,7 +15,7 @@ const User = ({user}) => {
             <p>Phone:{phone}</p>
             <Link to={`/user/${id}`}> Details</Link>
             <Link  to={`/user/${id}`} >
-            <button className="font-extrabold ">Spank me daddy</button>
+            <button className="font-extrabold  mr-3 p-2">Spank me daddy</button>
             </Link>
         </div>
     );
