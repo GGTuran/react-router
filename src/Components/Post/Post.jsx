@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Post = ({post}) => {
@@ -12,6 +13,7 @@ const Post = ({post}) => {
             <h1>UserId:{id}</h1>
             <h1>{title}</h1>
             <p>{body}</p>
+            <Link to={`/post/${id}`}>Details</Link>
         </div>
     );
 };
